@@ -8,7 +8,7 @@ export default StyleSheet.create({
   },
   nome: {
     color: cores.laranja,
-    fontSize: 20,
+    fontSize: 18,
     fontFamily: "MontserratBold",
   },
   calculo: {
