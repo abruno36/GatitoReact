@@ -26,19 +26,19 @@ const servicos = [
     nome: "Vacina Antirrábica",
     preco: 99.9,
     descricao: "Uma dose da vacina antirrábica. Seu gato precisa de uma por ano.",
-    quantidade: 1
+    quantidade: 6
   }
 ];
 
 export default function Carrinho() {
   const total = servicos.reduce((soma, {preco, quantidade}) => soma + (preco * quantidade), 0);
 
-  return <TelaPadrao>
+  return <>
     <StatusCarrinho total={total} />
     <FlatList
       data={servicos}
       renderItem={({item}) => <Item {...item}  />}
       keyExtractor={({id}) => String(id)}
     />
-  </TelaPadrao>
+  </>
 }
