@@ -9,6 +9,7 @@ export default StyleSheet.create({
     alignItems: 'center',
     flexWrap: 'wrap',
     padding: 24,
+    fontFamily: "MontserratRegular",
   },
   total: {
     alignItems: 'center',
@@ -16,16 +17,17 @@ export default StyleSheet.create({
   descricao: {
     fontSize: 16,
     color: cores.claro,
-    fontWeight: 'bold',
+    fontFamily: "MontserratBold",
   },
   valor: {
     fontSize: 18,
-    fontWeight: 'bold',
     marginVertical: 6,
     color: cores.laranja,
+    fontFamily: "MontserratBold",
   },
   botao: {
     flexGrow: 1,
     alignItems: 'flex-end',
+    fontFamily: "MontserratRegular",
   },
 });

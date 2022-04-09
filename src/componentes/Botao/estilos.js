@@ -6,6 +6,7 @@ export default (pequeno, invertido) => StyleSheet.create({
     width: 140,
     paddingVertical: pequeno ? 3 : 9,
     paddingHorizontal: 20,
+    fontFamily: "MontserratBold",
     backgroundColor: invertido ? cores.laranja : cores.roxo,
     shadowColor: "#000",
     shadowOffset: {
@@ -17,7 +18,7 @@ export default (pequeno, invertido) => StyleSheet.create({
     elevation: 4,
   },
   valor: {
-    fontWeight: 'bold',
+    fontFamily: "MontserratBold",
     textAlign: 'center',
     color: invertido ? cores.roxo : cores.laranja,
   }

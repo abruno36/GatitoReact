@@ -3,12 +3,14 @@ import { cores } from '../../../estilos';
 
 export default StyleSheet.create({
   informacao: {
-    padding: 24
+    padding: 24,
+    fontFamily: "MontserratRegular",
   },
   nome: {
     color: cores.laranja,
     fontWeight: 'bold',
     fontSize: 16,
+    fontFamily: "MontserratRegular",
   },
   calculo: {
     color: cores.escuro,
@@ -20,6 +22,7 @@ export default StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     textAlign: 'right',
+    fontFamily: "MontserratRegular",
   },
   divisor: {
     marginHorizontal: 24,
@@ -44,6 +47,7 @@ export default StyleSheet.create({
     color: cores.escuro,
     fontSize: 16,
     marginRight: 8,
+    fontFamily: "MontserratRegular",
   },
   quantidade: {
     width: 42,

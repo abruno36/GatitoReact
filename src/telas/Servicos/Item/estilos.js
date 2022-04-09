@@ -7,8 +7,8 @@ export default StyleSheet.create({
   },
   nome: {
     color: cores.laranja,
-    fontWeight: 'bold',
-    fontSize: 16,
+    fontSize: 20,
+    fontFamily: "MontserratBold",
   },
   calculo: {
     color: cores.escuro,
@@ -18,8 +18,8 @@ export default StyleSheet.create({
   preco: {
     color: cores.roxo,
     fontSize: 16,
-    fontWeight: 'bold',
     textAlign: 'right',
+    fontFamily: "MontserratBold",
   },
   divisor: {
     marginHorizontal: 24,
@@ -33,19 +33,23 @@ export default StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     flexWrap: 'wrap',
+    fontFamily: "MontserratRegular",
   },
   valor: {
     flexDirection: 'row',
     alignItems: 'center',
     marginBottom: 10,
     flexWrap: 'wrap',
+    fontFamily: "MontserratRegular",
   },
   descricao: {
     color: cores.escuro,
     fontSize: 16,
     marginRight: 8,
+    fontFamily: "MontserratRegular",
   },
   quantidade: {
     width: 120,
+    fontFamily: "MontserratRegular",
   }
 });

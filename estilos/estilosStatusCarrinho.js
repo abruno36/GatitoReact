@@ -9,6 +9,7 @@ export default StyleSheet.create({
     alignItems: 'center',
     flexWrap: 'wrap',
     padding: 24,
+    fontFamily: "MontserratRegular",
   },
   total: {
     alignItems: 'center',
@@ -17,6 +18,7 @@ export default StyleSheet.create({
     fontSize: 16,
     color: cores.claro,
     fontWeight: 'bold',
+    fontFamily: "MontserratRegular",
   },
   valor: {
     fontSize: 18,
